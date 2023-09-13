@@ -5,7 +5,7 @@ import random
 r=random.randint(0,4)
 if n=='Chedda':
   n='Mister '+n
-  c='Goulda'
+  c='Gouda'
 elif r==3:
   c='Cheesed'
 else:
