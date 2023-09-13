@@ -1,7 +1,8 @@
 gr='Hello World'
 print(gr)
 n=str(input("What's your name? \nMy name is:"))
-r=randint(0,4)
+import random
+r=random.randint(0,4)
 if n=='Chedda':
   n='Mister '+n
   c='Goulda'
